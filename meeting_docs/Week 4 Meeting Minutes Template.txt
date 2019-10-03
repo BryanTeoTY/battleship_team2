@@ -1,0 +1,37 @@
+Date/Location: 03-OCT-2019, A308
+Attendees: JK, TTY, YTS, KSK
+Start Time: 14:30
+End Time: 15:00
+
+Decisions
+=========
+* Team will review their individual codes and feedback to team       leader.
+* Exsisting GitHub accounts will be used to record changed in code base.
+* 9pm everyday to check-in daily scrum on Slack.
+* Aim to complete the sprint before 7th October 2019 @ 9pm.
+* Code does not require conversion to other language.
+* Any issues will be feedback to daily scrum by team.
+* Remind team to always fetch and pull from origin for any changes prior to starting work.
+* 9pm everyday to check-in daily scrum on Slack.
+
+
+
+Actions
+=======
+* 4/10/2019, JK [Code to be pushed into Github and shared to other team members]
+* 4/10/2019, JK [Backlog will be populated on Trello.]
+
+* 5/10/2019, YTS [Quickly look through code base and report to team any comments in the code.]
+
+* 5/10/2019, JK [Find and list functional issues. What works the way it should and what does not. Share on wiki.]
+
+* 5/10/2019, KSK [List of all the files, and description of what each file is for. Share on wiki.]
+
+* 5/10/2019, TTY [Check for any code not being used. share on wiki]
+
+* 7/10/2019, TTY [DeploymentControler.cs , DiscoveryController.cs]
+* 7/10/2019, KSK, [EndingGameController.cs , HighScoreController.cs]
+* 7/10/2019, YTS, [GameLogic.cs, GameController.cs, GameResources.cs]
+* 7/10/2019, JK, [MenuController.cs, UtilityFunctions.cs]
+
+* 4/10/2019, JK [Create list to track any extensions.]
