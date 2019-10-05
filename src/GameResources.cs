@@ -7,6 +7,21 @@ using SwinGameSDK;
 
 public static class GameResources
 {
+	/// <summary>
+	/// The images.
+	/// </summary>
+	private static Dictionary<string, Bitmap> _Images = new Dictionary<string, Bitmap> ();
+	private static Dictionary<string, Font> _Fonts = new Dictionary<string, Font> ();
+	private static Dictionary<string, SoundEffect> _Sounds = new Dictionary<string, SoundEffect> ();
+
+	private static Dictionary<string, Music> _Music = new Dictionary<string, Music> ();
+	private static Bitmap _Background;
+	private static Bitmap _Animation;
+	private static Bitmap _LoaderFull;
+	private static Bitmap _LoaderEmpty;
+	private static Font _LoadingFont;
+
+	private static SoundEffect _StartSound;
 
 	private static void LoadFonts()
 	{
@@ -103,18 +118,7 @@ public static class GameResources
 		return _Music[music];
 	}
 
-	private static Dictionary<string, Bitmap> _Images = new Dictionary<string, Bitmap>();
-	private static Dictionary<string, Font> _Fonts = new Dictionary<string, Font>();
-	private static Dictionary<string, SoundEffect> _Sounds = new Dictionary<string, SoundEffect>();
 
-	private static Dictionary<string, Music> _Music = new Dictionary<string, Music>();
-	private static Bitmap _Background;
-	private static Bitmap _Animation;
-	private static Bitmap _LoaderFull;
-	private static Bitmap _LoaderEmpty;
-	private static Font _LoadingFont;
-
-	private static SoundEffect _StartSound;
 	/// <summary>
 	/// The Resources Class stores all of the Games Media Resources, such as Images, Fonts
 	/// Sounds, Music.

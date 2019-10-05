@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-static class GameLogic
+public static class GameLogic
 {
 	public static void Main()
 	{
@@ -14,9 +14,9 @@ static class GameLogic
 
 		//Load Resources
 		GameResources.LoadResources();
-
 		SwinGame.PlayMusic(GameResources.GameMusic("Background"));
 
+		GameController.Init ();
 		//Game Loop
 		do {
 			GameController.HandleUserInput();
